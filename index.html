@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      My first Website
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,
+    wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sly.css">
+    <link rel="stylesheet" href="sly.js">
+  </head>
+  <body>
+    <div class="heading">
+      <div class="brand">
+        <img class="codingpng" src="PNG/vscode icon.png">
+        <div class="heading-text">
+          <div class="heading-name">
+            Technical Sly | Blogs
+          </div>
+          <div class="heading-title">
+            <div>code &#8226; learn &#8226; build &#8226; grow</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <nav class="nav-links">
+          <a href="" class="nav-link active">Home</a>
+          <a href="" class="nav-link">Articles</a>
+          <a href="" class="nav-link">About</a>
+          <a href="" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="nav-icons">
+          <div class="search-container" id="searchContainer">
+            <img src="PNG/search.png" class="search-icon" id="searchBtn" alt="search">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+          </div>
+
+          <img src="png/toggle.png" class="toggle-icon" id="theme-toggle" alt="Toggle Theme">
+        </div>
+      </div>
+    </div>
+
+    <main class="main-content">
+      <div class="blog-layout">
+        <div class="primary-content">
+          <section class="hero-post">
+            <div class="hero-content">
+              <span class="badge web-dev">Web Developement</span>
+              <h1>
+                build Your First Website With <span class="highlight">
+                  HTML & CSS
+                </span>
+              </h1>
+              <p>
+                Learn how to create a clean and responsive website
+                from scratch using only HTML and CSS. Perfect for 
+                beginners looking to level up their skills.
+              </p>
+              <div class="meta-info">
+                <span>🗓️ May 20, 2025</span>
+                <span class="dot">•</span>
+                <span>🕑 8 min read</span>
+              </div>
+              <a href="" class="read-more-btn">Read More ⇾</a>
+            </div>
+          </section>
+          <div class="section-header">
+            <h2>
+              Latest articles
+            </h2>
+            <a href="" class="view-all"> view all ⇾</a>
+          </div>
+          <div class="article-grid">
+            <div class="article-card">
+              <div class="card-image">
+                <img src="Thumbnail/vscode_extensions.jpg" alt="VS Code">
+              </div>
+              <div class="card-content">
+                <span class="badge tools">Tool & Productivity</span>
+                <h3>Top 5 VS code Extensions Every Development Should Use</h3>
+                <p>Boost your productivity and write cleaner code with these essential VS code extensions.</p>
+                <div class="meta-info">
+                  <span>🗓️ May 15, 2025</span>
+                  <span>•</span>
+                  <span>🕑 6 min read</span>
+                </div>
+              </div>
+            </div>
+            <div class="article-card">
+              <div class="card-image">
+                <img src="Thumbnail/ai_software.jpg" alt="AI">
+              </div>
+              <div class="card-content">
+                <span class="badge tech-news">Tech News</span>
+                <h3>How AI is Changing Software Development</h3>
+                <p>From code completion to automation, AI is reshaping the way developers work and build.</p>
+                <div class="meta-info">
+                  <span>🗓️ May 10, 2025</span>
+                  <span class="dot">•</span>
+                  <span>🕑 7 min read</span>
+                </div>
+              </div>
+            </div>
+            <div class="article-card">
+              <div class="card-image">
+                <img src="Thumbnail/coding_laptop.jpg" alt="Laptop">
+              </div>
+              <div class="card-content">
+                <span class="badge tips">Tips & Tricks</span>
+                <h3>Best Laptops for Coding in 2025 (Under $800)</h3>
+                <p>Looking for a budget-friendly laptop that can handle your coding needs? Here the best options.</p>
+                <div class="meta-info">
+                  <span>🗓️ May 5, 2025</span>
+                  <span class="dot">•</span>
+                  <span>🕑 5 min read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside class="side-bar">
+          <div class="widget search-widget">
+            <h3>Search</h3>
+            <div class="sidebar-search">
+              <input type="text" placeholder="Search articles...">
+              <button>🔍</button>
+            </div>
+          </div>
+          <div class="widget categories-widget">
+            <h3>Categories</h3>
+            <ul>
+              <li><span>💻 Web Development</span> <span class="count">6</span></li>
+              <li><span>⌨️ Programming</span> <span class="count">4</span></li>
+              <li><span>⚙️ Tools & Productivity</span> <span class="count">3</span></li>
+              <li><span>📰 Tech News</span> <span class="count">2</span></li>
+              <li><span>💡 Tips & Tricks</span> <span class="count">3</span></li>
+            </ul>
+          </div>
+          <div class="widget popular-widget">
+            <h3>Poplar posts</h3>
+            <div class="pop-post">
+              <img src="Thumbnail/hero_laptop.jpg" alt="Thumb">
+              <div>
+                <h4>Build Your First Website with HTML & CSS</h4>
+                <span>May 20, 2025</span>
+              </div>
+            </div>
+            <div class="pop-post">
+              <img src="Thumbnail/vscode_extensions.jpg" alt="Thumb">
+              <div>
+                <h4>Top 5 VS Code Extension Every Developer Should Use</h4>
+                <span>May 15, 2025</span>
+              </div>
+            </div>
+            <div class="pop-post">
+              <img src="Thumbnail/ai_software.jpg" alt="Thumb">
+              <div>
+                <h4>How AI is Changing Software Development</h4>
+                <span>May 10, 2025</span>
+              </div>
+            </div>
+            <div class="pop-post">
+              <img src="Thumbnail/coding_laptop.jpg" alt="Thumb">
+              <div>
+                <h4>Best Laptops for Coding in 2025 (Under$800)</h4>
+                <span>May 5, 2025</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-left-group">
+        <div class="footer-brand">
+          <img src="PNG/vscode icon.png" alt="Logo" class="footer-logo">
+          <span class="footer-name">
+            Sly Tech Blog
+          </span>
+        </div>
+        <div class="footer-tagline">
+          Better Code
+          <span class="divider">
+            |
+          </span>
+          Better Ideas
+          <span class="divider">
+             |
+          </span>
+          A Brighter future
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="social-icons">
+          <a href="">
+            <img src="PNG/github.png" alt="Github">
+          </a>
+          <a href="">
+            <img src="PNG/twitter.png" alt="Twitter">
+          </a>
+          <a href="">
+            <img src="PNG/linkedin.png" alt="LinkedIn">
+          </a>
+          <a href="">
+            <img src="PNG/youtube.png" alt="YouTube">
+          </a>
+        </div>
+        <div class="copyright">
+          &copy; 2024 Sly Tech Blog. All rights reserved.
+        </div>
+      </div>
+    </footer>
+    <script src="sly.js"></script>
+  </body>
+</html>
